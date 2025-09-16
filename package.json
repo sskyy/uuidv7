@@ -1,6 +1,6 @@
 {
-  "name": "uuidv7",
-  "version": "1.0.2",
+  "name": "@interaqt/uuidv7",
+  "version": "1.0.0",
   "description": "A JavaScript implementation of UUID version 7",
   "type": "module",
   "main": "dist/index.js",
@@ -27,18 +27,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LiosK/uuidv7.git"
+    "url": "git+https://github.com/sskyy/uuidv7.git"
   },
   "keywords": [
     "uuid",
     "uuidv7"
   ],
-  "author": "LiosK <contact@mail.liosk.net>",
+  "author": "sskyy <skyking_H@hotmail.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/LiosK/uuidv7/issues"
+    "url": "https://github.com/sskyy/uuidv7/issues"
   },
-  "homepage": "https://github.com/LiosK/uuidv7#readme",
+  "homepage": "https://github.com/sskyy/uuidv7#readme",
   "devDependencies": {
     "mocha": "^10.7.3",
     "typedoc": "^0.26.6",

@@ -303,7 +303,7 @@ export class V7Generator {
     generateOrAbortCore(unixTsMs, rollbackAllowance) {
         const MAX_COUNTER = 4398046511103;
         if (!Number.isInteger(unixTsMs) ||
-            unixTsMs < 1 ||
+            unixTsMs < 0 ||
             unixTsMs > 281474976710655) {
             throw new RangeError("`unixTsMs` must be a 48-bit positive integer");
         }
